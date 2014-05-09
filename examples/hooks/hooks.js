@@ -27,7 +27,7 @@ Router.map(function() {
     waitOn: function() {
       return {
         // this is made up but I do have code conceptually similar to this
-        ready: promiseToReady(GoogleApi.call('/foo/bar'));
+        ready: promiseToReady(GoogleApi.call('/foo/bar'))
       }
     }
   });
